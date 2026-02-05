@@ -24,3 +24,10 @@ production environments.
 
 ## Skills Demonstrated
 Docker, Containerization, Cloud Engineering, DevOps Basics
+
+
+## How to Build and Run (Optional)
+```bash
+docker build -t docker-python-app .
+docker run -p 8080:8080 docker-python-app
+
